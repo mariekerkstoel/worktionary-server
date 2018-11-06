@@ -1,0 +1,26 @@
+{
+  "name": "worktionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "knexfile.js",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "knex": "^0.15.2",
+    "pg": "^7.5.0",
+    "the-framework": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariekerkstoel/worktionary-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariekerkstoel/worktionary-server/issues"
+  },
+  "homepage": "https://github.com/mariekerkstoel/worktionary-server#readme"
+}
