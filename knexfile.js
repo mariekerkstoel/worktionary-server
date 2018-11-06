@@ -2,9 +2,10 @@ require("dotenv").config();
 
 const path = require("path");
 
-const BASE_PATH = path.join(__dirname, "src/db");
-const DATABASE = process.env.SAVVY_DATABASE_NAME;
+const BASE_PATH = path.join(__dirname, "db");
+const DATABASE = process.env.DATABASE_NAME;
 
+console.log({ DATABASE })
 console.log("In migrations file");
 console.log(BASE_PATH);
 
