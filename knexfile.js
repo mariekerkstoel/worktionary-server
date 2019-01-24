@@ -5,9 +5,9 @@ const path = require("path");
 const BASE_PATH = path.join(__dirname, "db");
 const DATABASE = process.env.DATABASE_NAME;
 
-console.log({ DATABASE })
 console.log("In migrations file");
 console.log(BASE_PATH);
+console.log(process.env.LOCAL_DB_USERNAME)
 
 module.exports = {
   test: {
